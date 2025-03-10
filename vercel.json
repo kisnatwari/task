@@ -1,9 +1,8 @@
 {
-    "redirects": [
+    "rewrites": [
       {
         "source": "/(.*)",
-        "destination": "/",
-        "statusCode": 301
+        "destination": "/index.html"
       }
     ]
   }
